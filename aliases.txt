@@ -1,0 +1,6 @@
+alias wo='workon finance && cd PycharmProjects/finance_/finance/'
+alias runserver='./manage.py runserver'
+alias midnight='time ./manage.py midnight_actions && time ./manage.py midnight_parallel_actions'
+alias unitserver='ssh -A dev@unittest'
+alias allgitpull='cd && cd PycharmProjects/finance_/finance/frontends/extjs && git checkout dev && git pull && git checkout master && git pull && git checkout stable && git pull && cd && cd PycharmProjects/finance_/print/ && git checkout dev && git pull && git checkout master && git pull && git checkout stable && git pull && cd && cd PycharmProjects/finance_/finance/ && git checkout dev && git pull && git checkout master && git pull && git checkout stable && git pull'
+alias fuzza='sudo fuser -k 8000/tcp'
